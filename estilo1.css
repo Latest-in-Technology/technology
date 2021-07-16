@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+body{
+    background-color: #CFFFE5;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat ;  
+    background-image: url(imagenes/unnamed.jpg) 
+
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    /*Flex Padre*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #E9B872;
+    font-size: 30px;
+    padding: 10px 0 ;
+}
+
+#logo img{
+    width: 180px;
+    vertical-align: middle;
+}
+#menu a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 0 2px;
+    color: #E9B872;  
+    
+}
+
+#menu a:hover{
+    background-color: black;
+    color: #FFF9A5;
+}
+#menu{
+    width: 50%;
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#logo1 img{
+    width: 180px;
+    vertical-align: middle;
+}
+#menu1 a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 0 15px;
+    color: #E9B872;  
+    
+}
+
+#menu1 a:hover{
+    background-color: black;
+    color: #FFF9A5;
+}
+#menu1{
+    width: 50%;
+    margin-right: 80px;
+}
+
+.hijo{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    line-height: 100px;
+}
+#titulo1{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #E9B872;
+}
+#titulo2{
+    margin-left: 50px;
+    color: #E9B872;
+}
+
+#caja2{
+    padding: 20px;
+    margin: 30px;
+    
+}
+#caja2:hover {
+    filter: opacity(.5);
+}
+.caja{
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    
+}
+.caja:hover{
+    filter: blur(5px);
+}
